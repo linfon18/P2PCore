@@ -1,4 +1,5 @@
-
+# Warning 
+The corresponding Android version has not yet been developed, and the Android version in this repository is the version of the original repository
 ## Build
 go version 1.20 only (support win7)
 cd root directory of the socure code and execute
