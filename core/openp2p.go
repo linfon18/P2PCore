@@ -32,8 +32,9 @@ func Run() {
 		installByFilename()
 	}
 	parseParams("", "")
-	gLog.Println(LvINFO, "openp2p start. version: ", OpenP2PVersion)
-	gLog.Println(LvINFO, "Contact: QQ group 16947733, Email openp2p.cn@gmail.com")
+	gLog.Println(LvINFO, "Original fork from OpenP2P")
+	gLog.Println(LvINFO, "P2PCore starting. version: ", OpenP2PVersion)
+	gLog.Println(LvINFO, "Tools Contact: QQ group 690625244, Email admin@mczlf.xyz")
 
 	if gConf.daemonMode {
 		d := daemon{}
@@ -76,8 +77,9 @@ func RunAsModule(baseDir string, token string, bw int, logLevel int) *P2PNetwork
 	}
 	// gLog.setLevel(LogLevel(logLevel))
 	gConf.setShareBandwidth(bw)
-	gLog.Println(LvINFO, "openp2p start. version: ", OpenP2PVersion)
-	gLog.Println(LvINFO, "Contact: QQ group 16947733, Email openp2p.cn@gmail.com")
+	gLog.Println(LvINFO, "Original fork from OpenP2P")
+	gLog.Println(LvINFO, "P2PCore starting. version: ", OpenP2PVersion)
+	gLog.Println(LvINFO, "Tools Contact: QQ group 690625244, Email admin@mczlf.xyz")
 	gLog.Println(LvINFO, &gConf)
 
 	GNetwork = P2PNetworkInstance()
