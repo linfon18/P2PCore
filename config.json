@@ -1,6 +1,7 @@
 {
     "network": {
-        "Node": "%name%", ##On TOOL0.0.4Pre11 Or higher versions,Node %name%%randomport%
+        "Node": "%name%", 
+        //On TOOL0.0.4Pre11 Or higher versions,Node %name%%randomport%
         "Token": "",
         "ServerHost": "api.openp2p.cn",
         "ServerPort": ,
