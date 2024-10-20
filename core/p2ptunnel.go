@@ -14,7 +14,7 @@ import (
 	"time"
 )
 
-const WriteDataChanSize int = 3000
+const WriteDataChanSize int = 4000
 
 var buildTunnelMtx sync.Mutex
 
